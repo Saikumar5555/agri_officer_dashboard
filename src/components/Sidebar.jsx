@@ -186,13 +186,18 @@ function Sidebar() {
   }, []);
 
   const ADMIN_SIDEBAR_LINKS = [
-    { id: 1, path: '/admin', name: 'Dashboard', icon: FaHome },
-    { id: 2, path: '/admin/UserManagement', name: 'User Management', icon: FaUsers },
-    { id: 3, path: '/admin/FieldManagement', name: 'Field Management', icon: FaMapMarkedAlt },
-    { id: 4, path: '/admin/CropManagement', name: 'Crop Management', icon: FaLeaf },
-    { id: 5, path: '/admin/IrrigationControl', name: 'Irrigation Control', icon: GiWateringCan },
-    { id: 6, path: '/admin/ReportAnalytics', name: 'Report & Analytics', icon: MdAssessment },
-    { id: 7, path: '/admin/Notifications', name: 'Notifications', icon: MdNotifications },
+    // { id: 1, path: '/admin', name: 'Dashboard', icon: FaHome },
+    // { id: 2, path: '/admin/UserManagement', name: 'User Management', icon: FaUsers },
+    // { id: 3, path: '/admin/FieldManagement', name: 'Field Management', icon: FaMapMarkedAlt },
+    // { id: 4, path: '/admin/CropManagement', name: 'Crop Management', icon: FaLeaf },
+    // { id: 5, path: '/admin/IrrigationControl', name: 'Irrigation Control', icon: GiWateringCan },
+    // { id: 6, path: '/admin/ReportAnalytics', name: 'Report & Analytics', icon: MdAssessment },
+    // { id: 7, path: '/admin/Notifications', name: 'Notifications', icon: MdNotifications },
+    { id: 1, path: '/admin/ServiceProviderDashboard', name: 'Dashboard', icon: FaHome },
+    { id: 2, path: '/admin/ServicesManagement', name: 'Services', icon: GiWateringCan },
+    { id: 3, path: '/admin/ServiceReport', name: 'Analytics', icon: MdAssessment },
+    { id: 4, path: '/admin/FarmEquipmentManager', name: 'Equipment Management', icon: FaMapMarkedAlt },
+    { id: 5, path: '/admin/StaffAssignmentForm', name: 'Staff Assignment', icon: FaUsers },
   ];
 
   const USER_SIDEBAR_LINKS = [

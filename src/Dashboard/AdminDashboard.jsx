@@ -2,24 +2,24 @@ import React from 'react'
 import { Routes,Route } from 'react-router-dom'
 import Layout from '../components/Layout'
 import Home from '../Adminpages/Home'
-import UserManagement from '../Adminpages/UserManagement'
-import FieldManagement from '../Adminpages/FieldManagement'
-import CropManagement from '../Adminpages/CropManagement'
-import IrrigationControl from '../Adminpages/IrrigationControl'
-import ReportAnalytics from '../Adminpages/ReportAnalytics'
-import Notifications from '../Adminpages/Notifications'
+import ServiceProviderDashboard from '../Adminpages/ServiceProviderDashboard'
+import FarmEquipmentManager from '../Adminpages/FarmEquipmentManager'
+import ServiceReport from '../Adminpages/ServiceReport'
+import StaffAssignmentForm from '../Adminpages/StaffAssignmentForm'
+import ServicesManagement from '../Adminpages/ServicesManagement'
 
 function AdminDashboard() {
   return (
     <Routes>
       <Route path='/' element={<Layout/>}>
         <Route index element={<Home/>}/>
-        <Route path='UserManagement' element= {<UserManagement/>} />
-        <Route path = 'FieldManagement' element={<FieldManagement />} />
-        <Route path = 'CropManagement' element= {<CropManagement />} />
-        <Route path='IrrigationControl' element={<IrrigationControl/>} />
-        <Route path='ReportAnalytics' element={<ReportAnalytics/>} />
-        <Route path='Notifications' element={<Notifications/>} />
+        
+        <Route path='ServicesManagement' element= {<ServicesManagement/>} />
+        <Route path = 'ServiceReport' element={<ServiceReport />} />
+        <Route path='FarmEquipmentManager' element= {<FarmEquipmentManager/>} />
+        <Route path = 'StaffAssignmentForm' element= {<StaffAssignmentForm />} />
+        <Route path='ServiceProviderDashboard' element={<ServiceProviderDashboard/>} />
+        
       </Route>
     </Routes>
   )
