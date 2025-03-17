@@ -36,7 +36,7 @@ app.add_middleware(
 )
 
 # Log in to Hugging Face with your token
-token = os.getenv("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")  # Replace with your actual token
+token = os.getenv("access_key")  # Replace with your actual token
 login(token=token, add_to_git_credential=True)
 
 # Load the model and tokenizer for image analysis
