@@ -99,7 +99,13 @@ const RegisterPage = () => {
     } else if (email === 'user@gmail.com' && password === '123') {
       localStorage.setItem('role', 'user');
       navigate('/user');
-    } else {
+      
+    } else if (email === 'main@gmail.com' && password === '123') {
+      localStorage.setItem('role', 'user');
+      navigate('/main');
+      
+    } 
+    else {
       setErrorMessage('Invalid email or password');
     }
   };
