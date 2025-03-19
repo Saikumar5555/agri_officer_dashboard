@@ -21,7 +21,7 @@ const FarmerManagement = () => {
   };
 
   return (
-    <div className="bg-white p-6 rounded-xl shadow-md">
+    <div className="bg-white m-5 p-5 rounded-xl shadow-md">
       <div className="flex flex-col md:flex-row justify-between md:items-center mb-6 space-y-4 md:space-y-0">
         <h2 className="text-xl font-semibold text-gray-800">Farmer Management</h2>
         <div className="flex flex-col md:flex-row md:items-center space-y-2 md:space-y-0 md:space-x-4">

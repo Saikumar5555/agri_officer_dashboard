@@ -101,7 +101,7 @@ const RegisterPage = () => {
       navigate('/user');
       
     } else if (email === 'main@gmail.com' && password === '123') {
-      localStorage.setItem('role', 'user');
+      localStorage.setItem('role', 'main');
       navigate('/main');
       
     } 
